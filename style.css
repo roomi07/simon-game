@@ -1,0 +1,53 @@
+body{
+    background-color: #011f3f;
+}
+
+h1{
+    color: #fef2bf;
+    font-size: 100px;
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding-bottom: 50px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    gap: 90px;
+}
+
+.tiles{
+    height: 250px;
+    width: 250px;
+    border: 12px solid black;
+    border-radius: 50px;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.pressed{
+    background-color: grey;
+    border-color: white;
+}
